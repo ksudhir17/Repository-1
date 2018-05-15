@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+table.temptbl, th, td {
+	border-collapse: collapse;
+}
+
+th, td.paddedlft {
+	padding: 0px 100px; 
+	vertical-align: top;
+	
+	/* set padding for inside the table */
+}
+
+.tbllinks { border-color:#F00; }
+
+.temphl { background-image:url(images/topbar.png); background-size: 20px 20px;  background-repeat: no-repeat; }
+
+.temphr {background-size: 100% 300px; background-repeat: no-repeat; background-position: right; width:10000px;
+}
+ 
+.ad { background-position:right;
+}
+
+.tbllinks { border-color:#000; border-style:solid}
+
+.prdcts { border-style: solid;}
+
+a:link {
+    color: black;
+}
+a { text-decoration:none; }
+
+a.underlined {
+   text-decoration:underline; }
+
+/* mouse over link */
+a:hover {
+    color: limegreen;
+}
+
+.content {
+	border-style: solid;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-color: pink;
+	font-size:30px;
+}
+
+.h1 {
+	font-size: xx-large;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	
+}
+.h1 {
+	font-family: "Comic Sans MS", cursive;
+}
+.h1 {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.home {height:24px; align:left;}
+#topbarpic {width:100%; height:150px;}
+.tr1 { vertical-align:top;}
+.td1 {position: absolute;
+    right: 0px;}
+
+.paddedlft { text-align: center; }
+
+div.srchimg { content:url(images/cart.png);
+	display: inline-block;
+    width: 20px; 
+    height: 20px;
+}
